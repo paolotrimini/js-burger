@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create your Burger</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>Create your burger</h1>
+    </header>
+    <main>
+        <input id="burger-name" name="burger-name" type="text" placeholder="Nome del panino">
+        <h2>Ingredients</h2>
+        <ul>
+            <li>
+                <img src="img/cheese.svg" width="20px">
+                <input id="formaggio" class="ingred" type="checkbox" data-price="2">
+                Formaggio
+            </li>
+            <li>
+                <img src="img/fried-egg.svg" width="20px">
+                <input id="uova" class="ingred" type="checkbox" data-price="3">
+                Uova
+            </li>
+            <li>
+                <img src="img/mustard.svg" width="20px">
+                <input id="mostarda" class="ingred" type="checkbox" data-price="4">
+                Mostarda
+            </li>
+            <li>
+                <img src="img/tomato.svg" width="20px">
+                <input id="pomodoro" class="ingred" type="checkbox" data-price="1">
+                Pomodoro
+            </li>
+            <li>
+                <img src="img/lettuce.svg" width="20px">
+                <input id="lattuga" class="ingred" type="checkbox" data-price="6">
+                Lattuga
+            </li>
+            <li>
+                <img src="img/ketchup.svg" width="20px">
+                <input id="ketchup" class="ingred" type="checkbox" data-price="1">
+                Ketchup
+            </li>
+        </ul>
+        <div>
+            <label for="coupon">Discount coupon</label>
+            <input id="burger-coupon" name="coupon" type="text" placeholder="Coupon">
+        </div>
+        <button id="calculate">Calcola prezzo</button>
+    </main>
+    <footer>
+            <span>
+                Prezzo
+            </span>
+        <span>
+                <span>
+                    €
+                </span>
+                <span id="price">
+                </span>
+            </span>
+    </footer>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
