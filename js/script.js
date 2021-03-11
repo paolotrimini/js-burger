@@ -12,7 +12,7 @@ for (var i=0; i<lis.length; i++) {
 
         var clickedLi = this;
         var clickedLiChildrens = clickedLi.children;
-        var clickedCheckbox = clickedLiChildrens[1];
+        var clickedCheckbox = clickedLiChildrens[1]; // 1 è img, 2 è input
 
         clickedCheckbox.checked = !clickedCheckbox.checked;
     });
