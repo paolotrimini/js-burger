@@ -14,6 +14,15 @@ ul {
     list-style: none;
 }
 
+header {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background-color: #efba54;
+    color: black;
+}
+
 footer {
     width: 100%;
     height: 100px;
@@ -34,18 +43,15 @@ footer {
     background-color: purple;
     color: white;
 }
+
 .container * {
     margin: auto;
 }
-.pair {
-    color: red;
-}
-.odd {
-    color: green;
-}
+
 #burger-name {
     margin-bottom: 20px;
 }
+
 #coupon {
     margin: 20px 0;
 }
